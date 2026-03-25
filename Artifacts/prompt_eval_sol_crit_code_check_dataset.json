@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Extract all AWS S3 bucket names from CloudFormation template resource names that follow the pattern 'S3Bucket' followed by alphanumeric characters",
+    "format": "regex",
+    "solution_criteria": "Regex should match valid S3 bucket resource logical IDs in CloudFormation (e.g., 'S3BucketMyData', 'S3BucketLogs') and capture the bucket identifier portion"
+  },
+  {
+    "task": "Create an AWS IAM policy JSON document that grants read-only access to a specific S3 bucket and its objects",
+    "format": "json",
+    "solution_criteria": "Valid JSON with proper IAM policy structure including Effect, Action, Resource, and Principal fields; must use s3:GetObject and s3:ListBucket actions only"
+  },
+  {
+    "task": "Write a Python function that takes an AWS EC2 instance ID and returns whether it is a valid instance ID format (e.g., 'i-0123456789abcdef0')",
+    "format": "python",
+    "solution_criteria": "Function should validate the format using string methods or regex; return boolean; handle edge cases like None or empty strings"
+  }
+]

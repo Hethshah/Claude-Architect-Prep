@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Parse an AWS S3 bucket name from an S3 URI in the format 's3://bucket-name/key/path' and extract only the bucket name",
+    "format": "regex"
+  },
+  {
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM role with a trust policy allowing EC2 instances to assume it",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that takes an AWS region string and returns True if it is a valid AWS region, False otherwise",
+    "format": "python"
+  }
+]
