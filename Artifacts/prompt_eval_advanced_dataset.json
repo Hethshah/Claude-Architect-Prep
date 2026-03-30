@@ -1,0 +1,47 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "65",
+      "goal": "Marathon runner preparing for race in 3 days, needs carb loading and optimal meal timing around 18-mile training run at 10 AM",
+      "restrictions": "Lactose intolerant, avoids high-fiber foods on training days"
+    },
+    "solution_criteria": [
+      "Emphasizes high-carbohydrate foods throughout the day",
+      "Times meals appropriately around the 10 AM training session",
+      "Avoids lactose and high-fiber foods"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a marathon runner requiring high-carbohydrate loading and specific timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "85",
+      "goal": "cutting phase powerlifter maintaining strength while losing fat",
+      "restrictions": "no dairy, limited processed foods"
+    },
+    "solution_criteria": [
+      "High protein content (minimum 2g per kg bodyweight)",
+      "Caloric deficit appropriate for cutting",
+      "Respects dairy-free restriction"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a powerlifter in a cutting phase who needs high protein while maintaining a caloric deficit"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "maintain energy for twice-daily swim training sessions",
+      "restrictions": "gluten-free, dairy-free"
+    },
+    "solution_criteria": [
+      "Provides complete 1-day meal plan with all meals",
+      "All foods are gluten-free and dairy-free",
+      "Includes adequate nutrition for athletic performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a teenage swimmer with food allergies (gluten-free, dairy-free) needing balanced nutrition for twice-daily training"
+  }
+]
