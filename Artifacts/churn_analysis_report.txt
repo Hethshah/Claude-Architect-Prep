@@ -1,0 +1,118 @@
+==========================================================================================
+STREAMING SERVICE CHURN ANALYSIS - EXECUTIVE SUMMARY
+==========================================================================================
+
+📊 DATASET OVERVIEW
+------------------------------------------------------------------------------------------
+Total Customers: 500
+Churned Customers: 193 (38.6%)
+Retained Customers: 307 (61.4%)
+
+🎯 TOP 5 CHURN DRIVERS (Ranked by Importance)
+------------------------------------------------------------------------------------------
+
+1. TOTAL VIEWING HOURS (Importance: 26.1%)
+   🔴 CRITICAL DRIVER
+   • Churned customers: 66.6 hours/month
+   • Retained customers: 83.2 hours/month
+   • Gap: 16.6 hours (20.0% lower for churned)
+   • Statistical Significance: p < 0.001 (highly significant)
+   📌 INSIGHT: Low engagement is the #1 predictor of churn
+
+2. AVERAGE SESSION DURATION (Importance: 17.9%)
+   🔴 CRITICAL DRIVER
+   • Churned customers: 49.4 minutes
+   • Retained customers: 57.8 minutes
+   • Gap: 8.3 minutes (14.4% lower for churned)
+   • Statistical Significance: p < 0.001 (highly significant)
+   📌 INSIGHT: Shorter sessions indicate lower content satisfaction
+
+3. UNIQUE TITLES WATCHED (Importance: 16.0%)
+   🟠 MAJOR DRIVER
+   • Churned customers: 19.5 titles
+   • Retained customers: 23.7 titles
+   • Gap: 4.3 titles (18.1% lower for churned)
+   • Statistical Significance: p < 0.001 (highly significant)
+   📌 INSIGHT: Content variety consumption is key to retention
+
+4. CUSTOMER SERVICE INTERACTIONS (Importance: 13.1%)
+   🟠 MAJOR DRIVER
+   • Churned customers: 3.18 interactions/year
+   • Retained customers: 2.49 interactions/year
+   • Gap: 0.69 more for churned (27.7% higher)
+   • Statistical Significance: p < 0.001 (highly significant)
+   📌 INSIGHT: More service calls = higher dissatisfaction/issues
+
+5. BINGE-WATCHING SESSIONS (Importance: 10.7%)
+   🟡 MODERATE DRIVER
+   • Churned customers: 6.2 sessions
+   • Retained customers: 7.7 sessions
+   • Gap: 1.5 sessions (19.7% lower for churned)
+   • Statistical Significance: p < 0.001 (highly significant)
+   📌 INSIGHT: Binge-watching indicates high content engagement
+
+📋 CATEGORICAL FACTORS
+------------------------------------------------------------------------------------------
+
+SUBSCRIPTION TIER IMPACT:
+   🔴 Basic: 43.5% churn rate (n=207)
+   🟡 Standard: 39.5% churn rate (n=210)
+   🟢 Premium: 24.1% churn rate (n=83)
+   📌 INSIGHT: Basic tier has highest churn; Premium has lowest
+
+TOP GENRE IMPACT:
+   Highest Churn Genres:
+   1. Horror: 52.3% (n=44)
+   2. Thriller: 48.3% (n=29)
+   3. Action: 44.6% (n=74)
+
+   Lowest Churn Genres:
+   1. Drama: 35.3% (n=102)
+   2. Comedy: 33.0% (n=100)
+   3. Documentary: 25.9% (n=54)
+   📌 INSIGHT: Documentary viewers are most loyal; Horror/Thriller least loyal
+
+💡 KEY INSIGHTS & RECOMMENDATIONS
+------------------------------------------------------------------------------------------
+
+CRITICAL FINDINGS:
+1. ENGAGEMENT IS EVERYTHING
+   - The top 3 drivers (viewing hours, session duration, titles watched)
+     account for 60% of churn prediction power
+   - Customers who churn watch 20% less content overall
+
+2. PROACTIVE SERVICE IS COUNTERPRODUCTIVE
+   - Higher customer service interactions predict churn
+   - Suggests underlying product/experience issues
+   - Reactive support doesn't prevent churn
+
+3. TIER MATTERS
+   - Basic tier users churn at 43.5% vs Premium at 24.1%
+   - May indicate price sensitivity or feature dissatisfaction
+
+RECOMMENDED ACTIONS:
+
+🎯 HIGH PRIORITY (Target low engagement)
+   1. Implement early warning system for users with <70 hours/month
+   2. Create personalized content recommendations for low-session users
+   3. Launch re-engagement campaigns for users watching <20 unique titles
+
+🔧 MEDIUM PRIORITY (Improve product quality)
+   4. Investigate root causes of customer service calls
+   5. Enhance Basic tier features to reduce churn gap
+   6. Analyze Horror/Thriller content quality and availability
+
+📊 LOW PRIORITY (Monitor and optimize)
+   7. Promote binge-worthy series to increase session frequency
+   8. Test pricing strategies for Basic tier users
+   9. Expand Documentary content (lowest churn segment)
+
+🎲 RISK SCORING RECOMMENDATION:
+   Create a churn risk score using these thresholds:
+   • HIGH RISK: <89h/month OR >2 service calls
+   • MEDIUM RISK: 89-59h/month
+   • LOW RISK: >59h/month AND <2 service calls
+
+==========================================================================================
+END OF ANALYSIS
+==========================================================================================
